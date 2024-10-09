@@ -26,7 +26,7 @@ export abstract class NearContract {
     let args = near.input();
     return JSON.parse(args || "{}");
   }
-
+  02nrll
   static serializeReturn(ret: any) {
     return JSON.stringify(ret);
   }
